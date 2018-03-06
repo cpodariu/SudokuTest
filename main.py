@@ -4,7 +4,6 @@ from repository.Repository import Repository
 
 r = Repository()
 sudoku = r.get_sudoku(1)
-p = Problem(sudoku)
-print(p)
-p.test_bfs()
-print(p)
+problem = Problem(sudoku)
+problem.test_bfs()
+print(problem)
